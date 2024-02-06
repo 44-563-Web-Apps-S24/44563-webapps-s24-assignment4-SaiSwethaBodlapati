@@ -35,3 +35,23 @@
     background-color: coral;
     color:aqua;
 }
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px; 
+}
+
+.table th, .table td {
+    border: 1px solid black;
+    padding: 10px; 
+    text-align: center;
+}
+
+.table th {
+    background-color:blueviolet; 
+}
+
+.table tr:nth-child(even) {
+    background-color: violet; 
+}
