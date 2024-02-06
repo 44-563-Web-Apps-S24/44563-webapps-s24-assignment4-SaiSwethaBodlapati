@@ -1,0 +1,37 @@
+.speech {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10px; 
+    color: black;
+}
+.direction {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color:black;
+    background-color: bisque;
+}
+.ZMEYUKINA {
+    color:burlywood;
+}
+.YATS {
+    color:red;
+}
+.GROOMSMAN {
+    color:gray;
+}
+.NASTASYA{
+    color:blue;
+}
+.APLOMBOV{
+    color:skyblue;
+}
+.A_WAITER{
+    color:brown;
+}
+.NASTASYA_TIMOFEYEVNA{
+    color:blueviolet;
+}
+
+.direction:hover {    
+    background-color: coral;
+    color:aqua;
+}
