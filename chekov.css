@@ -30,6 +30,16 @@
 .NASTASYA_TIMOFEYEVNA{
     color:blueviolet;
 }
+.NASTASYA_TIMOFEYEVNA:hover{
+    box-shadow: 0 0 10px peru;
+}
+.APLOMBOV:hover{
+    box-shadow: 0 0 10px black;
+}
+.GROOMSMAN:hover{
+    box-shadow: 0 0 10px blueviolet;
+}
+
 
 .direction:hover {    
     background-color: coral;
