@@ -31,13 +31,13 @@
     color:blueviolet;
 }
 .NASTASYA_TIMOFEYEVNA:hover{
-    box-shadow: 0 0 10px peru;
+    text-shadow: 5px 5px 10px peru;
 }
 .APLOMBOV:hover{
-    box-shadow: 0 0 10px black;
+    text-shadow: 5px 5px 10px black;
 }
 .GROOMSMAN:hover{
-    box-shadow: 0 0 10px blueviolet;
+    text-shadow: 5px 5px 10px blueviolet;
 }
 
 
@@ -64,4 +64,34 @@
 
 .table tr:nth-child(even) {
     background-color: violet; 
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f0f0f0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 0;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #333;
+}
+
+.navbar img {
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+    transition: transform 0.3s ease;
+}
+
+.navbar img:hover {
+    transform: scale(1.1);
 }
